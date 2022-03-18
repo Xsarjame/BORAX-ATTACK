@@ -7,12 +7,7 @@ const fs = require('fs'),
     url = require('url'),
     random_useragent = require('random-useragent');
 if (process.argv.length !== 8) {
-    console.log(`
-    Usage: node ${path.basename(__filename)} [url] [time]
-Usage: node ${path.basename(__filename)} http://example.com 600 60 10
-					By: ANTIVAXX`);
-   process.exit(0);
-} 
+	
     const UAs = [
     "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3599.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.18247",
